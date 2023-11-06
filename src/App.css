@@ -1,0 +1,128 @@
+*{
+  background-size: cover;
+}
+
+.layout{
+  height: 100vh;
+  display: grid;
+  grid-template-areas:'nav nav nav nav'
+                      'contenido contenido contenido contenido' 
+                      'footer footer footer footer'; 
+  grid-template-columns: 1fr 1fr 1fr 0.75fr; 
+  grid-template-rows:60px auto 70px  ;              
+}
+
+
+.navBar{
+ grid-area: nav;
+ 
+}
+
+.contenido{
+  grid-area: contenido; 
+}
+
+.sidebar{
+  grid-area: sidebar; 
+}
+
+.footer{
+  grid-area: footer;
+}
+
+
+/* nav bar */
+.navBar {
+ 
+text-align: center;
+padding-left: 35%;
+margin-right: 10%;
+
+}
+
+.boton-nv {
+text-decoration: none;
+ color: black;
+ margin-right: 10%;
+
+
+}
+/* home */
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: linear-gradient(to left,#b8a89d, white);
+
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.component {
+  padding: 10px;
+  margin-top: 20px;
+}
+.frase{
+  text-align: center;
+}
+
+.imagen-home{
+  max-width: 100%; 
+  height: auto; 
+  max-width: 100%;
+  width:auto;
+  margin-left: 70px;
+}
+
+.frase{
+  text-align: center;
+  margin-top: 30%;
+  z-index: 2;
+}
+
+.imagen-hojas{
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: auto;
+  top: 60px;
+  margin: 0;
+
+}
+
+.parrafo-footer{
+  text-align: center;
+}
+
+.oferta{
+  font-weight: 300;
+   text-align: center;
+   color: rgb(141, 141, 141);
+   font-size: 35px;
+   margin-top: 35px;
+   margin-bottom: 30px;
+z-index: 2;
+}
+
+.curso{
+  width: 40px;
+  height: 300px;
+}
+
+.tarjetas{
+  padding-left: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 30px;
+}
+
+.button{
+  margin-right: 10px;
+  margin-left: 20px;
+}
