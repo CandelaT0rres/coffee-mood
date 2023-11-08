@@ -36,7 +36,7 @@ export const Home = () => {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <a href='https://go.hotmart.com/G87437475P?ap=7f1b'>
+        <a href='https://go.hotmart.com/G87437475P?ap=7f1b' target='_blank'>
         <Button className='button' variant="outline-dark">Comprar</Button>
         </a>
         <Button className='button'variant="outline-dark">Más Info</Button>
@@ -52,7 +52,7 @@ export const Home = () => {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <a href='https://go.hotmart.com/Y87443611U?ap=d27a'>
+        <a href='https://go.hotmart.com/Y87443611U?ap=d27a' target='_blank'>
         <Button className='button' variant="outline-dark">Comprar</Button>
         </a>
         <Button className='button'variant="outline-dark">Más Info</Button>
